@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 10px #666;
+}
+
+.container .input{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container .input button{
+    margin-top: 1rem;
+    padding: .8rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+
+    color: #fff;
+    background-color: #4CAF50;
+}
+
+.container .input button:hover{
+    background-color: #5ec562;
+}
+
+.container .input input, .container .input select {
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #666;
+}
+
+.container .result{
+    text-align: center;
+}
+
